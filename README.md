@@ -1,14 +1,18 @@
-## Get started
+# Installation
 
-1. Install dependencies
-   - node version: 20.0.0
+1. Install Node
+- version: 20.0.0
 
-   ```bash
-      npm install
-   ```
+2. Install node modules
+`npm install`
 
-2. Start the web app
+3. Install Android studio
 
-   ```bash
-      npm run web
-   ```
+4. Install environment
+`cd android`
+`gradlew clean`
+`cd ..`
+
+5. Run project
+`npm start web`
+`npm start android`
