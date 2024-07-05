@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-test-app",
+  "name": "hello-world-helios-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -15,6 +15,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo-google-fonts/libre-baskerville": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^6.0.2",
     "expo": "~51.0.18",
