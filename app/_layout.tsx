@@ -9,6 +9,7 @@ import {
   LibreBaskerville_400Regular_Italic,
 } from '@expo-google-fonts/libre-baskerville';
 import indexScreen from './index';
+import HomeScreen from './HomeScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -56,6 +57,7 @@ export default function RootLayout() {
     <ThemeProvider value={DefaultTheme}>
       <Stack.Navigator>
         <Stack.Screen name="index" component={indexScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </ThemeProvider>
   );
